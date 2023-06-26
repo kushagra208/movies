@@ -4,7 +4,7 @@ import styles from './page.module.css'
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-import { getData } from './api/page';
+import { getData } from './api/api';
 import Link from 'next/link';
 import Loading from './loading';
 
