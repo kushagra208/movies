@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MOVIES
+Movies webapp lists top hundred movies from across the world.
 
-## Getting Started
+## Development
+Movies app is built using NextJs FrameWork.<br>
+The webapp uses firebase for authentication.
+<br>
+### Dependencies
+1. Axios
+2. Firebase
+<br>
+A third party api from rapidApi is used to fetch the data about the movies.
 
-First, run the development server:
+##Guide
+On startup the website will redirect the user to the login page if the user is not already logged in.
+<br>
+In the login page the user can signup using his/her gmail id and password.<br>
+![image](https://github.com/kushagra208/movies/assets/92975260/a662c71d-d10b-4464-bfe2-c1705bbbf808)
+<br>
+Then the user will redirected to the main page where the user can view the information about the movies.<br>
+On hovering above the movie card the user the can view some basic information about the movie.<br>
+It also includes a save button which can be used to store the information about the movie to the database.<br>
+![image](https://github.com/kushagra208/movies/assets/92975260/e4698e99-4a13-44a9-9197-4b4ea07492ed)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
