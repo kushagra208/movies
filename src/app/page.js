@@ -21,7 +21,7 @@ export default function Home() {
       const data = await getData();
       setData(data);
     }
-    // getMoviesData();
+    getMoviesData();
   },[])
 
   useEffect(() => {}, [data]);
